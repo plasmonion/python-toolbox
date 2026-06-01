@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: instrument-suite
+Version: 0.1.0
+Summary: Asynchronous instrumentation framework
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lakeshore
+Dynamic: license-file
