@@ -1,3 +1,8 @@
+# This module is defunct. VisaTransport should be used for serial communication instead, as it supports both serial and non-serial resources through the VISA interface. 
+# The SerialTransport class is no longer necessary and has been removed to simplify the codebase and reduce maintenance overhead. 
+# If you need to communicate with a serial instrument, please use VisaTransport with the appropriate resource name (e.g., "ASRL1::INSTR") 
+# and configure the serial settings as needed.
+
 import asyncio
 import serial
 
